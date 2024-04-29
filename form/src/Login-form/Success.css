@@ -1,0 +1,132 @@
+
+
+.dash {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    transition: margin-left 0.3s ease;
+    position: relative;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon {
+    
+    color: #3b3978;
+    border-radius: 2px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.dashboard-content {
+    width: 250px;
+    
+    position: absolute;
+    top: 100px;
+    left: -250px;
+    height: calc(100vh - 60px);
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 1;
+}
+
+.open {
+    margin-left: 0px;
+}
+
+.open .dashboard-content {
+    left: 0;
+}
+
+.over {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.setting {
+    margin-left: 1040px;
+    cursor: pointer;
+    color:black;
+}
+
+.logout-dropdown {
+    position: absolute;
+   
+    left: 1230px;
+    top:75px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    z-index: 999;
+}
+
+.logout-dropdown button {
+    display: block;
+    width: 60px;
+    padding: 8px;
+    background-color: transparent;
+    color: red;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* .Links{
+    list-style-type: none;
+    text-decoration: none;
+} */
+
+.Links {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+    /* Keep display: flex if you want icon and text horizontally aligned */
+    align-items: center;
+    /* Center vertically within the flex container */
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #3D52B4;
+    width: 180px;
+    margin:10px;
+}
+
+.active {
+    font-weight: bold;
+    background-color: #A6AFD9;
+    width: 180px;
+    border-radius: 9px;
+}
+
+.welcome{
+    margin-left: -220px;
+    color: #0d6efd;
+}
+
+.link-text{
+    color: #3b3978;
+}

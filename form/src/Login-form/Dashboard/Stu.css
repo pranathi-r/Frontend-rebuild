@@ -1,0 +1,147 @@
+
+
+/* Sty.css */
+.custom-snackbar  {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 0px 20px;
+    border-radius: 4px;
+    font-size: 15px;
+    /* Adjust z-index as needed */
+}
+
+
+
+.tick-mark {
+    margin-left: 15px;
+    /* Push the tick mark to the right */
+    font-size: 30px;
+    /* Adjust size as needed */
+    color: white;
+    margin-right: 10px;
+    /* Add some space between message and tick mark */
+}
+
+.custom-snackbar-danger  {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    background-color: #DC3545;
+    color: #fff;
+    padding: 0px 20px;
+    border-radius: 4px;
+    font-size: 15px;
+    /* Adjust z-index as needed */
+}
+
+
+.confirm-delete-prompt {
+    position: fixed;
+    top: 10px;
+    /* Adjust top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1000;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color:#DC3545;
+}
+
+.confirm-button{
+    margin: 0 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #3f51b5;
+    /* Customize button colors */
+    color: #ffffff;
+}
+
+.cancel-button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #dc3545;
+    /* Customize button colors */
+    color: #ffffff;
+}
+.confirm-button:hover {
+    background-color: #303f9f;
+    /* Change button color on hover */
+}
+
+.cancel-button:hover {
+    background-color: #dd4f5d;
+    /* Change button color on hover */
+}
+
+.backlog{
+    background-color: #3F52B8;
+        border: none;
+        border-radius: 6px;
+        padding: 8px 15px;
+        /* Adjust padding as needed */
+        display: flex;
+        align-items: center;
+        color: white;
+        margin-left: 1px;
+        margin-top: 30px;
+}
+
+/* BacklogStudentsPrompt.module.css */
+
+.backlog-students-prompt {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #333;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.backlog-students-prompt p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.backlog-students-prompt ul {
+    padding-left: 20px;
+}
+
+.backlog-students-prompt button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.backlog-students-prompt button:hover {
+    background-color: #d32f2f;
+}
+
+.li{
+    list-style: none;
+}
